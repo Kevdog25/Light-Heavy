@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.4)  27 JUL 2015 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.4)  27 JUL 2015 18:32
 entering extended mode
 **light-heavy.tex
 (light-heavy.tex
@@ -76,8 +76,8 @@ LaTeX Info: Redefining \Bbb on input line 113.
 File: aps.rtx 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documentatio
 n)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\revtex4\12pt.rtx"
-File: 12pt.rtx 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documentati
+("C:\Program Files\MiKTeX 2.9\tex\latex\revtex4\10pt.rtx"
+File: 10pt.rtx 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documentati
 on)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\mathrsfs.sty"
@@ -473,235 +473,264 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 74.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 74.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 74.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 74.
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
- [3]
-<figs/TotalEntropyDist.pdf, id=98, 578.16pt x 433.62pt>
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<figs/TotalEntropyDist.pdf, id=90, 578.16pt x 433.62pt>
 File: figs/TotalEntropyDist.pdf Graphic file (type pdf)
 
 <use figs/TotalEntropyDist.pdf>
 Package pdftex.def Info: figs/TotalEntropyDist.pdf used on input line 163.
-(pdftex.def)             Requested size: 468.0pt x 350.9987pt.
- [4] [5 <./figs/TotalEntropyDist.pdf>]
-<figs/QuarkSubstructure.png, id=199, 578.16pt x 433.62pt>
-File: figs/QuarkSubstructure.png Graphic file (type png)
-
-<use figs/QuarkSubstructure.png>
-Package pdftex.def Info: figs/QuarkSubstructure.png used on input line 191.
-(pdftex.def)             Requested size: 374.40143pt x 280.79764pt.
- [6]
+(pdftex.def)             Requested size: 246.0pt x 184.49448pt.
+ [2 <./figs/TotalEntropyDist.pdf>]
 <figs/x_Au_200GeV/"Intrinsic_200GeV_Eccentricities_Deuteron,Helium3_Smooth".png
-, id=219, 578.16pt x 433.62pt>
+, id=196, 578.16pt x 433.62pt>
 File: figs/x_Au_200GeV/"Intrinsic_200GeV_Eccentricities_Deuteron,Helium3_Smooth
 ".png Graphic file (type png)
 
 <use figs/x_Au_200GeV/"Intrinsic_200GeV_Eccentricities_Deuteron,Helium3_Smooth"
 .png>
 Package pdftex.def Info: figs/x_Au_200GeV/"Intrinsic_200GeV_Eccentricities_Deut
-eron,Helium3_Smooth".png used on input line 233.
-(pdftex.def)             Requested size: 209.65988pt x 157.24112pt.
+eron,Helium3_Smooth".png used on input line 228.
+(pdftex.def)             Requested size: 110.20583pt x 82.6533pt.
 
-Overfull \hbox (22.46274pt too wide) in paragraph at lines 233--234
+Overfull \hbox (11.80733pt too wide) in paragraph at lines 228--229
  [][] 
  []
 
 
 <figs/x_Au_200GeV/"Intrinsic_200GeV_Eccentricities_Deuteron,Helium3_Fluctuated"
-.png, id=220, 578.16pt x 433.62pt>
+.png, id=198, 578.16pt x 433.62pt>
 File: figs/x_Au_200GeV/"Intrinsic_200GeV_Eccentricities_Deuteron,Helium3_Fluctu
 ated".png Graphic file (type png)
 
 <use figs/x_Au_200GeV/"Intrinsic_200GeV_Eccentricities_Deuteron,Helium3_Fluctua
 ted".png>
 Package pdftex.def Info: figs/x_Au_200GeV/"Intrinsic_200GeV_Eccentricities_Deut
-eron,Helium3_Fluctuated".png used on input line 238.
-(pdftex.def)             Requested size: 209.65988pt x 157.24112pt.
+eron,Helium3_Fluctuated".png used on input line 233.
+(pdftex.def)             Requested size: 110.20583pt x 82.6533pt.
 
-Overfull \hbox (22.46274pt too wide) in paragraph at lines 238--239
+Overfull \hbox (11.80733pt too wide) in paragraph at lines 233--234
  [][] 
  []
 
-[7 <./figs/QuarkSubstructure.png>] [8 <./figs/x_Au_200GeV/Intrinsic_200GeV_Ecce
-ntricities_Deuteron,Helium3_Smooth.png> <./figs/x_Au_200GeV/Intrinsic_200GeV_Ec
-centricities_Deuteron,Helium3_Fluctuated.png>]
+[3 <./figs/x_Au_200GeV/Intrinsic_200GeV_Eccentricities_Deuteron,Helium3_Smooth.
+png> <./figs/x_Au_200GeV/Intrinsic_200GeV_Eccentricities_Deuteron,Helium3_Fluct
+uated.png>]
 <figs/x_Au_200GeV/"Au_200GeV_Eccentricities_Deuteron,Helium3_Smooth_b=0".png, i
-d=240, 578.16pt x 433.62pt>
+d=219, 578.16pt x 433.62pt>
 File: figs/x_Au_200GeV/"Au_200GeV_Eccentricities_Deuteron,Helium3_Smooth_b=0".p
 ng Graphic file (type png)
 
 <use figs/x_Au_200GeV/"Au_200GeV_Eccentricities_Deuteron,Helium3_Smooth_b=0".pn
 g>
 Package pdftex.def Info: figs/x_Au_200GeV/"Au_200GeV_Eccentricities_Deuteron,He
-lium3_Smooth_b=0".png used on input line 254.
-(pdftex.def)             Requested size: 209.65988pt x 157.24112pt.
+lium3_Smooth_b=0".png used on input line 249.
+(pdftex.def)             Requested size: 110.20583pt x 82.6533pt.
 
-Overfull \hbox (22.46274pt too wide) in paragraph at lines 254--255
+Overfull \hbox (11.80733pt too wide) in paragraph at lines 249--250
  [][] 
  []
 
 
 <figs/x_Au_200GeV/"Au_200GeV_Eccentricities_Deuteron,Helium3_Fluctuated_b=0".pn
-g, id=241, 578.16pt x 433.62pt>
+g, id=220, 578.16pt x 433.62pt>
 File: figs/x_Au_200GeV/"Au_200GeV_Eccentricities_Deuteron,Helium3_Fluctuated_b=
 0".png Graphic file (type png)
 
 <use figs/x_Au_200GeV/"Au_200GeV_Eccentricities_Deuteron,Helium3_Fluctuated_b=0
 ".png>
 Package pdftex.def Info: figs/x_Au_200GeV/"Au_200GeV_Eccentricities_Deuteron,He
-lium3_Fluctuated_b=0".png used on input line 259.
-(pdftex.def)             Requested size: 209.65988pt x 157.24112pt.
+lium3_Fluctuated_b=0".png used on input line 254.
+(pdftex.def)             Requested size: 110.20583pt x 82.6533pt.
 
-Overfull \hbox (22.46274pt too wide) in paragraph at lines 259--260
+Overfull \hbox (11.80733pt too wide) in paragraph at lines 254--255
  [][] 
  []
 
-<figs/"MultiplicityVsNpart_p_Pb".png, id=246, 578.16pt x 433.62pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
+ []\OT1/cmr/bx/n/9 (b) |\OT1/cmr/m/n/10 Quark Sub- 
+ []
+
+<figs/"MultiplicityVsNpart_p_Pb".png, id=225, 578.16pt x 433.62pt>
 File: figs/"MultiplicityVsNpart_p_Pb".png Graphic file (type png)
 
 <use figs/"MultiplicityVsNpart_p_Pb".png>
 Package pdftex.def Info: figs/"MultiplicityVsNpart_p_Pb".png used on input line
- 274.
-(pdftex.def)             Requested size: 209.65988pt x 157.24112pt.
+ 269.
+(pdftex.def)             Requested size: 110.20583pt x 82.6533pt.
 
-Overfull \hbox (22.46274pt too wide) in paragraph at lines 274--275
+Overfull \hbox (11.80733pt too wide) in paragraph at lines 269--270
  [][] 
  []
 
-<figs/"NpartVsb_p_Pb".png, id=247, 578.16pt x 433.62pt>
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 272.
+<figs/"NpartVsb_p_Pb".png, id=226, 578.16pt x 433.62pt>
 File: figs/"NpartVsb_p_Pb".png Graphic file (type png)
 
 <use figs/"NpartVsb_p_Pb".png>
-Package pdftex.def Info: figs/"NpartVsb_p_Pb".png used on input line 279.
-(pdftex.def)             Requested size: 209.65988pt x 157.24112pt.
+Package pdftex.def Info: figs/"NpartVsb_p_Pb".png used on input line 274.
+(pdftex.def)             Requested size: 110.20583pt x 82.6533pt.
 
-Overfull \hbox (22.46274pt too wide) in paragraph at lines 279--280
+Overfull \hbox (11.80733pt too wide) in paragraph at lines 274--275
  [][] 
  []
 
 
-<figs/x_Au_200Gev/"Au_200GeV_Eccentricities_Deuteron,Helium3_Smooth".png, id=24
-8, 578.16pt x 433.62pt>
+<figs/x_Au_200Gev/"Au_200GeV_Eccentricities_Deuteron,Helium3_Smooth".png, id=22
+7, 578.16pt x 433.62pt>
 File: figs/x_Au_200Gev/"Au_200GeV_Eccentricities_Deuteron,Helium3_Smooth".png G
 raphic file (type png)
 
 <use figs/x_Au_200Gev/"Au_200GeV_Eccentricities_Deuteron,Helium3_Smooth".png>
 Package pdftex.def Info: figs/x_Au_200Gev/"Au_200GeV_Eccentricities_Deuteron,He
-lium3_Smooth".png used on input line 303.
-(pdftex.def)             Requested size: 209.65988pt x 157.24112pt.
+lium3_Smooth".png used on input line 298.
+(pdftex.def)             Requested size: 110.20583pt x 82.6533pt.
 
-Overfull \hbox (22.46274pt too wide) in paragraph at lines 303--304
+Overfull \hbox (11.80733pt too wide) in paragraph at lines 298--299
  [][] 
  []
 
 
 <figs/x_Au_200Gev/"Au_200GeV_Eccentricities_Deuteron,Helium3_Fluctuated".png, i
-d=249, 578.16pt x 433.62pt>
+d=228, 578.16pt x 433.62pt>
 File: figs/x_Au_200Gev/"Au_200GeV_Eccentricities_Deuteron,Helium3_Fluctuated".p
 ng Graphic file (type png)
 
 <use figs/x_Au_200Gev/"Au_200GeV_Eccentricities_Deuteron,Helium3_Fluctuated".pn
 g>
 Package pdftex.def Info: figs/x_Au_200Gev/"Au_200GeV_Eccentricities_Deuteron,He
-lium3_Fluctuated".png used on input line 308.
-(pdftex.def)             Requested size: 209.65988pt x 157.24112pt.
+lium3_Fluctuated".png used on input line 303.
+(pdftex.def)             Requested size: 110.20583pt x 82.6533pt.
 
-Overfull \hbox (22.46274pt too wide) in paragraph at lines 308--309
+Overfull \hbox (11.80733pt too wide) in paragraph at lines 303--304
  [][] 
  []
 
-<figs/x_Au_200GeV/"p,d,t+Au EN vs b".pdf, id=254, 578.16pt x 433.62pt>
+<figs/x_Au_200GeV/"p,d,t+Au EN vs b".pdf, id=233, 578.16pt x 433.62pt>
 File: figs/x_Au_200GeV/"p,d,t+Au EN vs b".pdf Graphic file (type pdf)
 
 <use figs/x_Au_200GeV/"p,d,t+Au EN vs b".pdf>
 Package pdftex.def Info: figs/x_Au_200GeV/"p,d,t+Au EN vs b".pdf used on input 
-line 317.
-(pdftex.def)             Requested size: 468.0pt x 350.9987pt.
+line 312.
+(pdftex.def)             Requested size: 246.0pt x 184.49448pt.
 
-<figs/x_Pb_5020GeV/"p,d,t+Pb EN vs b".pdf, id=255, 578.16pt x 433.62pt>
+<figs/x_Pb_5020GeV/"p,d,t+Pb EN vs b".pdf, id=234, 578.16pt x 433.62pt>
 File: figs/x_Pb_5020GeV/"p,d,t+Pb EN vs b".pdf Graphic file (type pdf)
 
 <use figs/x_Pb_5020GeV/"p,d,t+Pb EN vs b".pdf>
 Package pdftex.def Info: figs/x_Pb_5020GeV/"p,d,t+Pb EN vs b".pdf used on input
- line 323.
-(pdftex.def)             Requested size: 468.0pt x 350.9987pt.
- [9 <./figs/x_Au_200GeV/Au_200GeV_Eccentricities_Deuteron,Helium3_Smooth_b=0.pn
+ line 318.
+(pdftex.def)             Requested size: 246.0pt x 184.49448pt.
+ [4 <./figs/x_Au_200GeV/Au_200GeV_Eccentricities_Deuteron,Helium3_Smooth_b=0.pn
 g> <./figs/x_Au_200GeV/Au_200GeV_Eccentricities_Deuteron,Helium3_Fluctuated_b=0
-.png>] [10 <./figs/MultiplicityVsNpart_p_Pb.png> <./figs/NpartVsb_p_Pb.png> <./
-figs/x_Au_200Gev/Au_200GeV_Eccentricities_Deuteron,Helium3_Smooth.png> <./figs/
-x_Au_200Gev/Au_200GeV_Eccentricities_Deuteron,Helium3_Fluctuated.png>] [11 <./f
-igs/x_Au_200GeV/p,d,t+Au EN vs b.pdf>]
-<figs/x_Au_200GeV/"p,d,t+Au EN vs total_entropy".pdf, id=360, 578.16pt x 433.62
+.png> <./figs/MultiplicityVsNpart_p_Pb.png> <./figs/NpartVsb_p_Pb.png> <./figs/
+x_Au_200Gev/Au_200GeV_Eccentricities_Deuteron,Helium3_Smooth.png> <./figs/x_Au_
+200Gev/Au_200GeV_Eccentricities_Deuteron,Helium3_Fluctuated.png> <./figs/x_Au_2
+00GeV/p,d,t+Au EN vs b.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 323.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 323.
+
+
+Class revtex4 Warning: Deferred float stuck during \clearpage processing.
+
+
+<figs/x_Au_200GeV/"p,d,t+Au EN vs total_entropy".pdf, id=328, 578.16pt x 433.62
 pt>
 File: figs/x_Au_200GeV/"p,d,t+Au EN vs total_entropy".pdf Graphic file (type pd
 f)
  <use figs/x_Au_200GeV/"p,d,t+Au EN vs total_entropy".pdf>
 Package pdftex.def Info: figs/x_Au_200GeV/"p,d,t+Au EN vs total_entropy".pdf us
-ed on input line 332.
-(pdftex.def)             Requested size: 468.0pt x 350.9987pt.
+ed on input line 327.
+(pdftex.def)             Requested size: 246.0pt x 184.49448pt.
 
-<figs/x_Pb_5020GeV/"p,d,t+Pb EN vs total_entropy".pdf, id=361, 578.16pt x 433.6
+<figs/x_Pb_5020GeV/"p,d,t+Pb EN vs total_entropy".pdf, id=329, 578.16pt x 433.6
 2pt>
 File: figs/x_Pb_5020GeV/"p,d,t+Pb EN vs total_entropy".pdf Graphic file (type p
 df)
  <use figs/x_Pb_5020GeV/"p,d,t+Pb EN vs total_entropy".pdf>
 Package pdftex.def Info: figs/x_Pb_5020GeV/"p,d,t+Pb EN vs total_entropy".pdf u
-sed on input line 338.
-(pdftex.def)             Requested size: 468.0pt x 350.9987pt.
- [12 <./figs/x_Pb_5020GeV/p,d,t+Pb EN vs b.pdf>] [13 <./figs/x_Au_200GeV/p,d,t+
-Au EN vs total_entropy.pdf>] [14 <./figs/x_Pb_5020GeV/p,d,t+Pb EN vs total_entr
-opy.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 404.
+sed on input line 333.
+(pdftex.def)             Requested size: 246.0pt x 184.49448pt.
 
-[15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 404.
- (light-heavy.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 404.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 404.
+Overfull \vbox (3.64398pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (3.64398pt too high) has occurred while \output is active []
+
+
+[5 <./figs/x_Pb_5020GeV/p,d,t+Pb EN vs b.pdf> <./figs/x_Au_200GeV/p,d,t+Au EN v
+s total_entropy.pdf
+
+pdfTeX warning: pdflatex (file ./figs/x_Au_200GeV/p,d,t+Au EN vs total_entropy.
+pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figs/x_Pb_5020GeV/p,d,t+Pb EN vs total_entropy.pdf
+
+pdfTeX warning: pdflatex (file ./figs/x_Pb_5020GeV/p,d,t+Pb EN vs total_entropy
+.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 1694) in paragraph at lines 381--387
+ []\OT1/cmr/m/n/9 J. L. Na-gle, A. Adare, S. Beck-man, T. Koblesky,
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 399.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 399.
+[6] (light-heavy.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 399.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 399.
 Package rerunfilecheck Info: File `light-heavy.out' has not changed.
-(rerunfilecheck)             Checksum: 12EA6ADB65B81EA63FF58ADBC505D9EF;877.
+(rerunfilecheck)             Checksum: 75A528E5BFF2EAB9927125737FBD7436;877.
  ) 
 Here is how much of TeX's memory you used:
- 10380 strings out of 493698
- 164715 string characters out of 3144413
- 283248 words of memory out of 3000000
- 13502 multiletter control sequences out of 15000+200000
- 17947 words of font info for 72 fonts, out of 3000000 for 9000
+ 10386 strings out of 493698
+ 164632 string characters out of 3144413
+ 289030 words of memory out of 3000000
+ 13509 multiletter control sequences out of 15000+200000
+ 18192 words of font info for 74 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 42i,9n,53p,1568b,632s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,9n,53p,1568b,632s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmti12.pfb>
-Output written on light-heavy.pdf (15 pages, 760934 bytes).
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+ti9.pfb>
+Output written on light-heavy.pdf (6 pages, 686416 bytes).
 PDF statistics:
- 668 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
- 167 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 628 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
