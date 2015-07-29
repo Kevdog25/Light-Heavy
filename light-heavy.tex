@@ -192,10 +192,10 @@ These considerations change the shape of the nuclear thickness function, $T_N(\v
 	T_NN(\vec{b}) = \sum_{i=1}^{3}\sum_{j=1}^{3}\int{d^2r_\perp \frac{1}{4 \pi \sigma_g^2} e^{-\frac{(\vec{r}_{j\perp}+\vec{b}-\vec{r}_{i\perp})^2}{4 \sigma_g^2}}}
 \end{equation}
 
-Due to eq \ref{eq:QuarkConstraint}, the average nuclear thickness over many events approaches a Gaussian with a width $\sigma_{eff}$. This means that the average collision probability is still given by $P(i,j)$. However, since $T_{NN}(\vec{b})$ is only non-zero when the valence quarks overlap, certain configurations are biased when deciding wounded nucleons, which affects the measured eccentricities. Figure \ref{fig:CollisionComaprison} demonstrates this bias in p+p collisions at 200GeV.
-
+Due to eq \ref{eq:QuarkConstraint}, the average nuclear thickness over many events approaches a Gaussian with a width $\sigma_{eff}$. This means that the average collision probability is still given by $P(i,j)$. However, since $T_{NN}(\vec{b})$ is only non-zero when the valence quarks overlap, certain configurations are biased when deciding wounded nucleons, which affects the measured eccentricities. Figure \ref{fig:CollisionComaprison} demonstrates this bias in p+p collisions at 5020GeV.
 \begin{figure}
-	\caption{}
+	\includegraphics[width = \linewidth]{figs/CollisionCriterionComparisonTotalEntropy5020GeV.pdf}
+	\caption{Elliptic and triangular eccentricities for p+p collisions at 5020GeV. Shows that using quark position to determine nuclear thickness results in lower eccentricities. }
 	\label{fig:CollisionComaprison}
 \end{figure}
 
@@ -222,15 +222,16 @@ When the nucleons are modeled by a single smooth Gaussian, these small scale flu
 
 \subsection{Intrinsic Eccentricities}
 \label{subsec:IntrinsicEccentricities}
-Unlike heavy ions, such as Au, light ions can exhibit intrinsic geometries that can bias certain eccentricities. For example, a deuteron only contains two nucleons, and as such, without sub-nucleonic fluctuations it is biased toward an elliptic deformation. Unfortunately, the influence that these intrinsic eccentricities have on the initial state anisotropies is not obvious. Figure \ref{fig:SmFlIntAu} shows the distribution of these intrinsic eccentricities found in deuterons and $^3$He nuclei with smooth Gaussian nucleons. Unintuitively, a $^3$He nucleus has a significantly larger elliptic eccentricity than the deuteron, despite the elliptic symmetry in the deuteron being so apparent. This is because the eccentricities are calculated in the transverse plane. While a deuteron is more loosely bound than $^3$He in 3-space, when projected onto the transverse plane it has a significantly smaller average intra-nuclear distance of 0.96 fm compared to ~1.8 fm as determined from eq \ref{eq:HulthenPDF}. Because a $^3$He nucleus contains 3 nucleons that are not co-linear, it will always have some elliptic deformation in the transverse plane, which is on average larger than a deuteron's. 
+Unlike heavy ions, such as Au, light ions can exhibit intrinsic geometries that can bias certain eccentricities. For example, a deuteron only contains two nucleons, and as such, without sub-nucleonic fluctuations it is biased toward an elliptic deformation. Unfortunately, the influence that these intrinsic eccentricities have on the initial state anisotropies is not obvious. Figure \ref{fig:SmFlIntAu} shows the distribution of these intrinsic eccentricities found in deuterons and $^3$He nuclei with smooth Gaussian nucleons. Unintuitively, a $^3$He nucleus has a significantly larger elliptic eccentricity than the deuteron, despite the elliptic symmetry in the deuteron being so apparent. This is because the eccentricities are calculated in the transverse plane. While a deuteron is more loosely bound than $^3$He in 3-space, when projected onto the transverse plane it has a significantly smaller average intra-nuclear distance of 0.96 fm compared to ~[@!] fm as determined from eq \ref{eq:HulthenPDF}. Because a $^3$He nucleus contains 3 nucleons that are not co-linear, it will always have some elliptic deformation in the transverse plane, which is on average larger than a deuteron's. 
+
 \begin{figure}
 	\begin{center}
-		\begin{subfigure}[t]{0.4\linewidth}
+		\begin{subfigure}[h]{0.4\linewidth}
 			%\centering
 			\includegraphics[width = 1.12\textwidth] {figs/x_Au_200GeV/"Intrinsic_200GeV_Eccentricities_Deuteron,Helium3_Smooth".png}
 			\subcaption{\label{subfig:SmIntAu}}
 		\end{subfigure}
-		\begin{subfigure}[t]{0.4\linewidth}
+		\begin{subfigure}[h]{0.4\linewidth}
 			%\centering
 			\includegraphics[width = 1.12\textwidth] {figs/x_Au_200GeV/"Intrinsic_200GeV_Eccentricities_Deuteron,Helium3_Fluctuated".png}
 			\subcaption{\label{subfig:FlIntAu}}
@@ -239,61 +240,6 @@ Unlike heavy ions, such as Au, light ions can exhibit intrinsic geometries that 
 		\label{fig:SmFlIntAu}
 	\end{center}
 \end{figure}
-
-Naively, one would expect that these intrinsic geometries of light ions would appear in highly central collisions against a large nucleus, such as Au. However, figure \ref{fig:SmFlCentAu} shows evidence that intrinsic eccentricity is a poor predictor of low centrality eccentricities. This is largely due to two unintuitive effects in the collision modeling system. 
-
-The first is the probabilistic binary collision detection method. Because the participation of two overlapping nucleons is determined by \ref{eq:CollisionProb}, the intrinsic geometry in the projectile nucleus is not guaranteed to carry over to the geometry of the wounded nucleons. Figure \ref{fig:SmFlAub=0} reveals that collision geometries at b = 0 bear little resemblance of the intrinsic nucleon distributions, demonstrating that when colliding with a dense field of nucleons, the intrinsic geometry is not imprinted on the collision.
-
-\begin{figure}
-	\begin{center}
-		\begin{subfigure}[t]{0.4\linewidth}
-			%\centering
-			\includegraphics[width = 1.12\textwidth] {figs/x_Au_200GeV/"Au_200GeV_Eccentricities_Deuteron,Helium3_Smooth_b=0".png}
-			\subcaption{Single Gaussian\label{subfig:SmAub=0}}
-		\end{subfigure}
-		\begin{subfigure}[t]{0.4\linewidth}
-			%\centering
-			\includegraphics[width = 1.12\textwidth] {figs/x_Au_200GeV/"Au_200GeV_Eccentricities_Deuteron,Helium3_Fluctuated_b=0".png}
-			\subcaption{Quark Sub-Structure\label{subfig:FlAub=0}}
-		\end{subfigure}
-		\caption{\subref{subfig:SmAub=0} and \subref{subfig:FlAub=0} show the distribution of eccentricities in head on (b=0) x+Au collisions with single Gaussian and quark sub-structure nucleon representations.}
-		\label{fig:SmFlAub=0}
-	\end{center}
-\end{figure} 
-
-Secondly, centrality is an unintuitive metric. The centrality for these collisions was calculated relative to the largest multiplicity found in that collision type \cite{Shen:2014vra}.
-\begin{equation}
-Centrality = \frac{1-\frac{dN_{ch}}{dy}}{Max(\frac{dN_{ch}}{dy})} 
-\end{equation}
-In heavy-ion collisions, it is reasonably correlated with impact parameter and $N_W$. However, in light-heavy collisions, this is not the case. Figure \ref{fig:MutliplcityNpartB} shows that multiplicity, $N_W$ and impact parameter are only loosely correlated in light-heavy collisions. These correlations improve slightly as the size of the nuclei go up, but they are still poor in $^3$He+Au collisions.
-\begin{figure}
-	\begin{subfigure}{0.4\linewidth}
-		\includegraphics[width = 1.12\textwidth]{figs/"MultiplicityVsNpart_p_Pb".png}
-		\subcaption{}
-		\label{subfig:MultVsNpart}
-	\end{subfigure}
-	\begin{subfigure}{0.4\linewidth}
-		\includegraphics[width = 1.12\textwidth]{figs/"NpartVsb_p_Pb".png}
-		\subcaption{}
-		\label{subfig:NpartVsb}
-	\end{subfigure}
-	
-	%\begin{subfigure}{0.4\linewidth}
-		%\includegraphics{figs/"MultiplicityVsB".png}
-	%	\subcaption{}
-	%	\label{subfig:MultVsB}
-	%\end{subfigure}
-	%\begin{subfigure}{0.4\linewidth}
-	%\includegraphics{figs/"MultiplicityVsB".png}
-	%	\subcaption{}
-	%	\label{subfig:MultVsB}
-	%\end{subfigure}
-	\caption{}
-	\label{fig:MutliplcityNpartB}
-\end{figure}
-
-\subsection{Eccentricities vs Impact Parameter and Centrality}
-\label{subsec:EccentricitiesVsB&Cent}
 \begin{figure}
 	\centering
 	\begin{subfigure}[h]{0.4\linewidth}
@@ -309,33 +255,88 @@ In heavy-ion collisions, it is reasonably correlated with impact parameter and $
 	\caption{Distributions of $\epsilon_2$ and $\epsilon_3$ found in x+Au collisions with low centrality (0-10\%). Neither with the smooth Gaussian model, \subref{subfig:SmCentAu}, nor with the added sub-nucleonic fluctuations, \subref{subfig:FlCentAu}, do the distributions resemble their intrinsic counterparts in FIG. 3.}
 	\label{fig:SmFlCentAu}
 \end{figure}
-We have generated 500,000 MC-Glauber initial conditions for each collision type, x+Au at $\sqrt{s} = 200GeV$ and x+Pb at $\sqrt{s} = 5.02TeV$ where x $\in$ {p,d,$^3$He}. For each collision type, the eccentricities are plotted against centrality and impact parameter. Figure \ref{fig:AuENvsB} shows the event-averaged elliptic and triangular flows of x+Au collisions against impact parameter. It includes graphs data for both the smooth Gaussian case, and the fluctuated quark substructure case. Nucleons at this energy have a Gaussian width of 0.40 fm. Figure \ref{fig:PbENvsB} is the same, but with data from x+Pb collisions, where nucleons have a Gaussian width of 0.52 fm. In both, there are similar trends. In the low impact parameter range, 0-4 fm, each curve is relatively flat. This is because the light nucleus is entirely contained within the heavy nucleus. The p+A curves peak at large impact parameters, as the average nucleon separation gets larger. The black curves for the p+p collisions act as a reference to demonstrate that the eccentricity is highly sensitive to the distance between wounded nucleons. In the smooth case, the triangularity comes only from the multiplicity fluctuations, which break the reflectional symmetry. Even this small, not inherently triangular effect can produce a large $\epsilon_3$ when the wounded nucleons are spaced far enough away. This shows that while intrinsic geometry can bias certain eccentricities, other parameters, like average nucleon spacing, can be just as influential.\\
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=\linewidth]{figs/x_Au_200GeV/"p,d,t+Au EN vs b".pdf}
-	\caption{}
-	\label{fig:AuENvsB}
-\end{figure}
 \begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{figs/x_Pb_5020GeV/"p,d,t+Pb EN vs b".pdf}
-    \caption{\textbf{Eccentricities Vs. Impact Parameter:}  Shown are MC Glauber initial conditions for both RHIC (top) and LHC (bottom) for the elliptical and triangular eccentricities in p+Au, d+Au, and $^3$He+Au collisions as functions of impact parameter. In  (a) the entropy density for the collisions is deposited as a smooth Gaussian distribution, while in fig (b) the entropy profile is texturized with sub-nucleonic scale fluctuations. }
-    \label{fig:PbENvsB}
+	\begin{center}
+		\begin{subfigure}[t]{0.4\linewidth}
+			%\centering
+			\includegraphics[width = 1.12\textwidth] {figs/x_Au_200GeV/"Au_200GeV_b=0_Eccentricities_Deuteron,Helium3_Smooth".png}
+			\subcaption{Single Gaussian\label{subfig:SmAub=0}}
+		\end{subfigure}
+		\begin{subfigure}[t]{0.4\linewidth}
+			%\centering
+			\includegraphics[width = 1.12\textwidth] {figs/x_Au_200GeV/"Au_200GeV_b=0_Eccentricities_Deuteron,Helium3_Fluctuated".png}
+			\subcaption{Quark Sub-Structure\label{subfig:FlAub=0}}
+		\end{subfigure}
+		\caption{\subref{subfig:SmAub=0} and \subref{subfig:FlAub=0} show the distribution of eccentricities in head on (b=0) x+Au collisions with single Gaussian and quark sub-structure nucleon representations.}
+		\label{fig:SmFlAub=0}
+	\end{center}
 \end{figure}
-Figures \ref{fig:AuENvsCent} and \ref{fig:PbENvsCent} comprise our previous and updated expectations of experiments. They both show that the consideration of quark sub-structure has a large and complicated impact on initial state eccentricity. The most striking is that p, d and, $^3$He + A collisions now produce very similar $\epsilon_3$ curves. When considering $^3$He+A collisions, one might expect that they would exhibit significantly higher $\epsilon_3$ at most, or all centralities. While this is the case with a smooth nucleon, the intrinsic geometry of $^3$He is obscured when quarks are considered. Figure \ref{fig:PbENvsCent} even shows that $^3$He has the smallest $\epsilon_3$ from 30\%-70\%. This suggests that the random distribution of quarks washes out much of the intrinsic geometry found in light ions. As a result, the eccentricities are driven by collision parameters and, in part, measurement decisions.
 
-Because centrality is measured relative to the max $\frac{dN_{ch}}{dy}$ of each collision type, different geometry biases appear. For example, low centrality d+A collisions are correlated with a low impact parameter, but are biased toward a larger deuteron; the average deuteron nucleon separation at 0-10\% centrality is ~15\% larger than the minimum bias separation. This is because a larger deuteron will be able to hit more nucleons and generate a higher multiplicity. This is why we find a peak in the elliptic eccentricity at low centrality shown in figures \ref{fig:AuENvsCent} and \ref{fig:PbENvsCent}, but do not in figures \ref{fig:AuENvsB} and \ref{fig:PbENvsB}.
+Naively, one would expect that these intrinsic geometries of light ions would appear in highly central collisions against a large nucleus, such as Au. However, figure \ref{fig:SmFlCentAu} shows evidence that intrinsic eccentricity is a poor predictor of low centrality eccentricities. This is largely due to two unintuitive effects in the collision modeling system: collision detection and centrality determination. 
+
+Because the participation of two overlapping nucleons is determined by \ref{eq:CollisionProb}, the intrinsic geometry in the projectile nucleus is not guaranteed to carry over to the geometry of the wounded nucleons. Figure \ref{fig:SmFlAub=0} reveals that collision geometries at b = 0 bear little resemblance of the intrinsic nucleon geometries, demonstrating that even in head-on collisions the intrinsic geometry is not clearly imprinted on the collision.
+
+Secondly, centrality is an unintuitive metric that correlates poorly with impact parameter. The centrality for these collisions was calculated relative to the largest multiplicity found in that collision type \cite{Shen:2014vra}.
+\begin{equation}
+Centrality = \frac{1-\frac{dN_{ch}}{dy}}{Max(\frac{dN_{ch}}{dy})} 
+\end{equation}
+In heavy-ion collisions, this metric is reasonably correlated with impact parameter and $N_W$. However, in light-heavy collisions, this is not the case. Figure \ref{fig:MutliplcityNpartB} shows that multiplicity, $N_W$ and impact parameter are only loosely correlated in light-heavy collisions. These correlations improve slightly as the size of the nuclei go up, but they are still poor in $^3$He+Au collisions.
+%\begin{figure*}
+%	\begin{subfigure}{0.3\linewidth}
+%		\includegraphics[width = \textwidth]{figs/MultiplicityVsB/"MultiplicityVsNpart_p_Pb".png}
+%		\subcaption{}
+%		\label{subfig:MultVsNpart}
+%	\end{subfigure}
+%	\begin{subfigure}{0.3\linewidth}
+%		\includegraphics[width = \textwidth]{figs/MultiplicityVsB/"NpartVsb_p_Pb".png}
+%		\subcaption{}
+%		\label{subfig:NpartVsb}
+%	\end{subfigure}
+%	\begin{subfigure}{0.3\linewidth}
+%		\includegraphics[width = \textwidth]{figs/MultiplicityVsB/"MultiplicityVsb_p_Pb".png}
+%		\subcaption{}
+%		\label{subfig:MultVsB}
+%	\end{subfigure}
+%	\caption{}
+%	\label{fig:MutliplcityNpartB}
+%\end{figure*}
+
+\subsection{Eccentricities vs Impact Parameter and Centrality}
+\label{subsec:EccentricitiesVsB&Cent}
+We have generated 500,000 MC-Glauber initial conditions for each collision type, x+Au at $\sqrt{s} = 200GeV$ and x+Pb at $\sqrt{s} = 5.02TeV$ where x $\in$ {p,d,$^3$He}. For each collision type, the eccentricities are plotted against centrality and impact parameter. Figure \ref{fig:AuENvsB} shows the event-averaged elliptic and triangular flows of x+Au collisions against impact parameter. It includes graphs data for both the smooth Gaussian case, and the fluctuated quark substructure case. Nucleons at this energy have a Gaussian width of 0.40 fm. Figure \ref{fig:PbENvsB} is the same, but with data from x+Pb collisions, where nucleons have a Gaussian width of 0.52 fm. In both, there are similar trends. In the low impact parameter range, 0-4 fm, each curve is relatively flat. This is because the light nucleus is entirely contained within the heavy nucleus. The p+A curves peak at large impact parameters, as the average nucleon separation gets larger. The black curves for the p+p collisions act as a reference to demonstrate that the eccentricity is highly sensitive to the distance between wounded nucleons. In the smooth case, the triangularity comes only from the multiplicity fluctuations, which break the reflectional symmetry. Even this small, not inherently triangular effect can produce a large $\epsilon_3$ when the wounded nucleons are spaced far enough away. This shows that while intrinsic geometry can bias certain eccentricities, other parameters, like average nucleon spacing, can be just as influential.
+
+\begin{figure}[h]
+	\begin{subfigure}{0.8\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{figs/x_Au_200GeV/"p,d,t+Au EN vs b".pdf}
+		%\subcaption{}
+		\label{subfig:AuENvsB}
+	\end{subfigure}\\
+	\begin{subfigure}{0.8\linewidth}
+		\includegraphics[width=\linewidth]{figs/x_Pb_5020GeV/"p,d,t+Pb EN vs b".pdf}
+		%\subcaption{}
+		\label{subfig:PbENvsB}
+	\end{subfigure}
+    \caption{\textbf{Eccentricities Vs. Impact Parameter:}  Shown are the elliptic and triangular eccentricities of MC Glauber initial conditions for both x+Au at $\sqrt{s}=200$GeV (top) and x+Pb $\sqrt{s}=5020$GeV (bottom) as functions of impact parameter. In (a), the nucleons are modeled by a smooth Gaussian, while in (b), the nucleons are modeled by three Gaussian quarks.}
+    \label{fig:AuPbENvsB}
+\end{figure}
+Figure \ref{fig:AuPbENvsCent} show how our expectations of experiment drastically change when we shift to the quark model. They show that the consideration of quark sub-structure has a large and complicated impact on initial state eccentricity. The most striking effect is that p, d, and $^3$He +A collisions now produce very similar $\epsilon_3$ curves. When considering $^3$He+A collisions, one might expect that they would exhibit significantly higher $\epsilon_3$ at most, or all centralities, as it consistently has the largest $\epsilon_3$ value in intrinsic and head-on cases. While this is the case with a smooth nucleon, the intrinsic geometry of $^3$He is obscured when quarks are considered. Figure \ref{fig:AuPbENvsCent} shows that against Pb at $\sqrt{s}=5020$GeV, $^3$He has the smallest $\epsilon_3$ from 30\%-70\%. This suggests that the random distribution of quarks washes out much of the intrinsic geometry found in light ions. As a result, the eccentricities are driven by other collision parameters and, in part, measurement decisions.
+
+The choice to compare eccentricities against centrality comes with its own biases. This is because centrality is measured relative to the max $\frac{dN_{ch}}{dy}$ of each collision type. Specifying a low centrality does not only select for more central collisions, but also for an incident nucleus that occupies more space in the transverse plane. d+Au collisions are clear example of centrality correlating with nucleus size; the average deuteron nucleon separation at 0-10\% centrality is ~15\% larger than the minimum bias separation. This is because a larger deuteron will be able to wound more nucleons and generate a higher multiplicity. As a result, we find a peak in the elliptic eccentricity at low centrality shown in figure \ref{fig:AuPbENvsCent} which is absent in figure \ref{fig:AuPbENvsB}.
 \begin{figure}[ht]
-	\centering
-	\includegraphics[width=\linewidth]{figs/x_Au_200GeV/"p,d,t+Au EN vs total_entropy".pdf}
-	\caption{}
-	\label{fig:AuENvsCent}
-\end{figure} 
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=\linewidth]{figs/x_Pb_5020GeV/"p,d,t+Pb EN vs total_entropy".pdf}
-	\caption{\textbf{Eccentricities Vs. Centrality:} Centrality dependent eccentricities before (a) and after (b) the entropy density was texturized with sub-nucleonic fluctuations. Collisions were simulated for both RHIC (top) and LHC (bottom) energies}
-	\label{fig:PbENvsCent}
+	\begin{subfigure}{0.8\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{figs/x_Au_200GeV/"p,d,t+Au EN vs total_entropy".pdf}
+		%\subcaption{}
+		\label{subfig:AuENvsCent}
+	\end{subfigure}\\
+	\begin{subfigure}{0.8\linewidth}
+		\includegraphics[width=\linewidth]{figs/x_Pb_5020GeV/"p,d,t+Pb EN vs total_entropy".pdf}
+		%\subcaption{}
+		\label{subfig:PbENvsCent}
+	\end{subfigure}
+	\caption{\textbf{Eccentricities Vs. Centrality:} Shown are the elliptic and triangular eccentricities of MC Glauber initial conditions for both x+Au at $\sqrt{s}=200$GeV (top) and x+Pb $\sqrt{s}=5020$GeV (bottom) for the elliptical and triangular eccentricities as functions of centrality. In (a), the nucleons are modeled by a smooth Gaussian, while in (b), the nucleons are modeled by three Gaussian quarks.}
+	\label{fig:AuPbENvsCent}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
